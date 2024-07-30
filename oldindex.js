@@ -27,9 +27,6 @@ client.aliases = new Collection();
     require(`./handlers/${handler}`)(client);
 });
 
-/*
-const dbl = new DBL('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijc1MjI0MjU3MDUzMjIyNTA2NCIsImJvdCI6dHJ1ZSwiaWF0IjoxNjEyNDMxOTk1fQ.o4V-YyeSACT4KYnVhsX7w5994VkwIzweOnS5IchBpss', client);
-*/
 
 client.on("ready", () => {
   //console.log(`${client.user.tag} is now Online!`) //${client.user.tag} //${client.users.cache.size}
@@ -38,7 +35,7 @@ client.on("ready", () => {
   //table.setHeading(`Online ✔`)
   table.addRow('On', '✅ ');
   console.log(table.toString())
-  //client.channels.cache.get('767755465433415701').send("Ziro-Bot Is Now Online After a Restart!")
+  //client.channels.cache.get('').send("Ziro-Bot Is Now Online After a Restart!")
 }) /*(`To Over ${client.guilds.cache.size} Servers | z!help`,{type: "STREAMING",url:"https://www.twitch.tv/ziro22_"})
 ,{type: "LISTENING"} */
 
